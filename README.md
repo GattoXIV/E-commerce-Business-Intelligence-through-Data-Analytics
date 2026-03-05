@@ -1,13 +1,13 @@
 # 👥 Customer Age Group Classification
 
-## 📝 Descrizione del Progetto
-Progetto di classificazione per prevedere la fascia d'età (`age_group`) dei clienti basandosi sui loro comportamenti di acquisto e interazioni (es. numero di dipartimenti, categorie, orari e giorni degli ordini).
+## 📝 Project Overview
+A classification project aimed at predicting the `age_group` of customers based on their purchasing behaviors and interactions (e.g., number of departments, categories, order hours, and days).
 
-## 🎯 Obiettivi e Risultati
-* **Pre-processing:** Standardizzazione delle feature numeriche tramite `StandardScaler`.
-* **Modellazione:** Implementazione di un classificatore Random Forest.
-* **Valutazione:** Calcolo dell'accuratezza percentuale, generazione del Classification Report e visualizzazione della Confusion Matrix.
+## 🎯 Objectives & Results
+* **Pre-processing:** Standardized numerical features using `StandardScaler`.
+* **Modeling:** Implemented a Random Forest Classifier.
+* **Evaluation:** Calculated percentage accuracy, generated a Classification Report, and visualized the Confusion Matrix to assess model reliability.
 
-## 🛠️ Tecnologie e Librerie
+## 🛠️ Technologies & Libraries
 * Python
 * Pandas, Scikit-Learn, Matplotlib
