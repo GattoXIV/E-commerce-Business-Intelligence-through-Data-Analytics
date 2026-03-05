@@ -1,16 +1,13 @@
-E-commerce Data Analysis
-Description
-This repository contains data analysis materials for a Business Intelligence and Data Analytics project focused on e-commerce. The project includes:
-• Presentation: A PDF file (`Presentazione-Data-Analyst.pdf`) that illustrates the workflow and the main insights obtained from the analysis of e-commerce data.
-• Code: A file containing the code (SQL, Python, etc.) used for data extraction, cleaning, analysis and visualization.
-Project Overview
-The analysis is based on the public dataset `thelook_ecommerce` from Google BigQuery. The main activities include:
-• Data extraction: Using SQL to query the database and obtain key metrics.
-• Cleaning and transformation: Preparing the data for analysis.
-• Predictive analysis: Applying machine learning models (linear regression and random forest) to segment users and predict behaviors.
-• Visualization: Creating interactive dashboards with Tableau to tell the story of the data and support business decisions.
-Repository Structure
-── Presentación-Data-Analyst.pdf
-├── Code for the task
-├── Tableau file
-└── README.md
+# 👥 Customer Age Group Classification
+
+## 📝 Descrizione del Progetto
+Progetto di classificazione per prevedere la fascia d'età (`age_group`) dei clienti basandosi sui loro comportamenti di acquisto e interazioni (es. numero di dipartimenti, categorie, orari e giorni degli ordini).
+
+## 🎯 Obiettivi e Risultati
+* **Pre-processing:** Standardizzazione delle feature numeriche tramite `StandardScaler`.
+* **Modellazione:** Implementazione di un classificatore Random Forest.
+* **Valutazione:** Calcolo dell'accuratezza percentuale, generazione del Classification Report e visualizzazione della Confusion Matrix.
+
+## 🛠️ Tecnologie e Librerie
+* Python
+* Pandas, Scikit-Learn, Matplotlib
